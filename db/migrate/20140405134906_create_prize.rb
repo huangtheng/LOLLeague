@@ -3,6 +3,7 @@ class CreatePrize < ActiveRecord::Migration
     create_table :prizes do |t|
       t.string  :name
       t.integer :league_id
+      t.integer :player_id
       t.string  :description
       t.integer :value
       t.string  :currency
