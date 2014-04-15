@@ -4,7 +4,7 @@ class CreatePlayerLeague < ActiveRecord::Migration
       t.integer :player_id
       t.integer :league_id
 
-      t.timestampss
+      t.timestamps
     end
   end
 end
